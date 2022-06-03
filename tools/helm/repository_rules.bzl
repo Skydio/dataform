@@ -11,7 +11,7 @@ def _helm_tool_impl(ctx):
 helm_tool = repository_rule(
     implementation = _helm_tool_impl,
     attrs = {
-        "version": attr.string(default = "v3.4.2"),
+        "version": attr.string(default = "v3.9.0"),
     },
 )
 
